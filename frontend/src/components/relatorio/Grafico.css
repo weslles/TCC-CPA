@@ -1,0 +1,14 @@
+#grafico {
+    /* Area do Gráfico */
+
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    position: absolute;
+    width: 30vw;
+    scale: 0.2cm;
+    height: 20px;
+    top: 290px;
+
+}

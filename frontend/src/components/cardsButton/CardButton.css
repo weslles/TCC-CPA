@@ -1,0 +1,32 @@
+#cardButton {
+    flex: 1;
+    margin: 10px;
+    background: #1C1D24;
+    border: 1px;
+    color: aliceblue;
+    padding: 0 10px;
+    width: 350px;
+    height: 350px;
+    border: 5px;
+    border-color: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: 20px 20px 40px -12px rgba(0, 0, 0, 0.25);
+    width: 215px;
+    height: 150px;
+    display: flex;
+
+
+    align-items: center;
+    justify-content: center;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 24px;
+    /* or 75% */
+
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #6D7D93;
+}

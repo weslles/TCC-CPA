@@ -1,9 +1,10 @@
+import '../cardsButton/CardButton.css'
 
-export default (props: { cardTitle: string; title: string; subTitle: string ; }) => {
+export default (props: { title: string; subTitle: string ; }) => {
     return (
-        <div className="{cardTitle}">
-            <span className='spanTitle'>{props.title}</span>
-            <span className="spanSubTitle">{props.subTitle}</span>
+        <div id='cardButton'>
+            <span id='spanTitle'>{props.title} </span>
+            <span id="spanSubTitle"> {props.subTitle}</span>
         </div>
     )
 }

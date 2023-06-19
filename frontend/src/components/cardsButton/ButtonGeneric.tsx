@@ -1,6 +1,8 @@
-function ButtonGeneric(){
+function ButtonGeneric() {
     return (
-        <div className="av"> <span id="av">Melhor Avaliação</span></div>
+        <div className="av">
+            <span id="av" >Titulo</span>
+        </div>
     )
 }
 
